@@ -1,0 +1,29 @@
+{
+  "site": {
+    "title": "Bookworm Next | Personal Blog Theme",
+    "base_url": "/",
+    "favicon": "/images/kulik-logo.png",
+    "logo": "/images/kulik-logo.png",
+    "logo_width": "100",
+    "logo_height": "100",
+    "logo_text": "Kulik Pictures"
+  },
+
+  "settings": {
+    "pagination": 3,
+    "summary_length": 200,
+    "blog_folder": "posts"
+  },
+
+  "params": {
+    "tag_manager_id": "",
+    "contact_form_action": "#",
+    "copyright": "Copyright © Kulik Corporation"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Next Boilerplate"
+  }
+}
