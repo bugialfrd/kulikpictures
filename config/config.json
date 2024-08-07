@@ -16,8 +16,8 @@
   },
 
   "params": {
-    "tag_manager_id": "",
-    "contact_form_action": "#",
+    "tag_manager_id": "GTM-MFBKTL34",
+    "contact_form_action": "kulikpictures.vercel.app",
     "copyright": "Copyright © Kulik Corporation"
   },
 
