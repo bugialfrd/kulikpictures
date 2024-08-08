@@ -17,12 +17,12 @@ export default function Contact() {
   const [message, setMessage] = useState("");
 
   // Replace with your actual API key or load from environment variables
-  const apiKey = process.env.PUBLIC_ACCESS_KEY || "YOUR_ACCESS_KEY_HERE";
+  const apiKey = process.env.PUBLIC_ACCESS_KEY || "1cf76dc3-c61c-4267-9f3c-176fe89918d2";
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
     settings: {
-      from_name: "Acme Inc",
+      from_name: "name",
       subject: "New Contact Message from your Website",
     },
     onSuccess: (msg, data) => {
@@ -65,6 +65,28 @@ export default function Contact() {
           {errors.name && (
             <div className="mt-1 text-red-600">
               <small>{errors.name.message}</small>
+            </div>
+          )}
+        </div>
+
+        <div className="mb-5">
+          <input
+            type="number"
+            placeholder="Nomor Whatsapp"
+            autoComplete="off"
+            className={`w-full px-4 py-3 border-2 rounded-md outline-none ${
+              errors.name
+                ? "border-red-600 focus:border-red-600"
+                : "border-gray-300 focus:border-gray-600"
+            }`}
+            {...register("whatsapp", {
+              required: "Masukkan nomor whatsapp",
+              maxLength: 13,
+            })}
+          />
+          {errors.name && (
+            <div className="mt-1 text-red-600">
+              <small>{errors.whatsapp.message}</small>
             </div>
           )}
         </div>
@@ -116,7 +138,7 @@ export default function Contact() {
         <button
           type="submit"
           className={`w-full py-4 font-semibold text-white transition-colors bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none ${
-            isSubmitting ? "opacity-75 cursor-not-allowed" : ""
+            isSubmitting ? "opacity-50 cursor-not-allowed" : ""
           }`}
           disabled={isSubmitting}
         >
