@@ -68,7 +68,6 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
-import { Transition } from '@headlessui/react'; // Import Transition from Headless UI
 
 export default function Contact() {
   const {
@@ -96,9 +95,6 @@ export default function Contact() {
       setIsSuccess(true);
       setMessage(msg);
       reset();
-      setTimeout(() => {
-        setIsSuccess(false); // Reset isSuccess after delay
-      }, 5000); // Reset after 5 seconds
     },
     onError: (msg, data) => {
       setIsSuccess(false);
@@ -110,7 +106,7 @@ export default function Contact() {
     input: "w-full px-4 py-3 border-2 placeholder:text-gray-800 dark:text-white rounded-md outline-none",
     inputError: "border-red-600 focus:border-red-600 ring-red-100 dark:ring-0",
     inputDefault: "border-gray-300 focus:border-gray-600 ring-gray-100 dark:border-gray-600 dark:focus:border-white dark:ring-0",
-    button: "w-full py-4 font-semibold text-white transition-colors bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-gray-200 px-7 dark:bg-white dark:text-black mt-5 transform hover:scale-105 duration-300", // Added hover effect and transition
+    button: "w-full py-4 font-semibold text-white transition-colors bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-gray-200 px-7 dark:bg-white dark:text-black",
     spinner: "w-5 h-5 mx-auto text-white dark:text-black animate-spin",
     successMessage: "mt-3 text-sm text-center text-green-500",
     errorMessage: "mt-3 text-sm text-center text-red-500"
@@ -222,24 +218,12 @@ export default function Contact() {
         </button>
       </form>
 
-      {/* Success/Error Message with Transition */}
-      <Transition
-        show={isSubmitSuccessful || message !== ""}
-        enter="transition-opacity duration-500"
-        enterFrom="opacity-0"
-        enterTo="opacity-100"
-        leave="transition-opacity duration-300"
-        leaveFrom="opacity-100"
-        leaveTo="opacity-0"
-      >
-        {(ref) => (
-          <div ref={ref} className={isSuccess ? formClasses.successMessage : formClasses.errorMessage}>
-            {message || (isSuccess ? "Success. Message sent successfully" : "Something went wrong. Please try later.")}
-          </div>
-        )}
-      </Transition>
+      {isSubmitSuccessful && (
+        <div className={isSuccess ? formClasses.successMessage : formClasses.errorMessage}>
+          {message || (isSuccess ? "Success. Message sent successfully" : "Something went wrong. Please try later.")}
+        </div>
+      )}
     </div>
   );
 }
-
 
