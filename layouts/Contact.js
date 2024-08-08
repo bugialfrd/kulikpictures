@@ -38,7 +38,7 @@ export default function Contact() {
 
   return (
     <div className="max-w-lg mx-auto mt-10">
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form className="mb-5" onSubmit={handleSubmit(onSubmit)}>
         <input
           type="checkbox"
           id="botcheck"
