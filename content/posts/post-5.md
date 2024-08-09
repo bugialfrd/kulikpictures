@@ -4,7 +4,7 @@ description: "meta description"
 image: "/images/posts/05.jpg"
 date: 2021-01-25
 draft: false
-authors: ["John Doe"]
+authors: ["Najmudin"]
 tags: ["Food", "Gold"]
 categories: ["Food"]
 ---

@@ -1,6 +1,6 @@
 ---
-title: Bugi Alfaridi
-image: /images/authors/mark-dinn.jpg
+title: Najmudin
+image: /images/authors/najmudin.jpg
 description: this is meta description
 social:
   facebook: https://www.facebook.com/
