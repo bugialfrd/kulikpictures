@@ -3,7 +3,7 @@ title: "Our Gallery"
 draft: false
 ---
 ### Wedding Day
-![Description](./images/test.jpg)
+![images](./images/test.jpg)
 ![Description](./images/test3.jpg)
 
 ### Birthday Day
