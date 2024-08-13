@@ -5,16 +5,9 @@
       "description": "meta description",
       "date": "2023-04-04T00:00:00.000Z",
       "image": "/images/posts/banner-home.jpg",
-      "categories": [
-        "art"
-      ],
-      "authors": [
-        "Bugi Alfaridi"
-      ],
-      "tags": [
-        "diy",
-        "toy"
-      ],
+      "categories": ["art"],
+      "authors": ["Bugi Alfaridi"],
+      "tags": ["diy", "toy"],
       "draft": false
     },
     "content": "\nNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n## Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
@@ -26,16 +19,9 @@
       "description": "meta description",
       "date": "2022-04-10T00:00:00.000Z",
       "image": "/images/posts/02.jpg",
-      "categories": [
-        "development"
-      ],
-      "authors": [
-        "Najmudin"
-      ],
-      "tags": [
-        "diy",
-        "toy"
-      ],
+      "categories": ["development"],
+      "authors": ["Najmudin"],
+      "tags": ["diy", "toy"],
       "draft": false
     },
     "content": "\nNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n## Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
@@ -47,16 +33,9 @@
       "description": "meta description",
       "date": "2022-06-02T00:00:00.000Z",
       "image": "/images/posts/03.jpg",
-      "categories": [
-        "art"
-      ],
-      "authors": [
-        "Bugi Alfaridi"
-      ],
-      "tags": [
-        "diy",
-        "toy"
-      ],
+      "categories": ["art"],
+      "authors": ["Bugi Alfaridi"],
+      "tags": ["diy", "toy"],
       "draft": false
     },
     "content": "\nNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n## Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
@@ -69,16 +48,9 @@
       "image": "/images/posts/04.jpg",
       "date": "2021-02-02T00:00:00.000Z",
       "draft": false,
-      "authors": [
-        "Bugi Alfaridi"
-      ],
-      "tags": [
-        "Balloon",
-        "Gas"
-      ],
-      "categories": [
-        "Accessories"
-      ]
+      "authors": ["Bugi Alfaridi"],
+      "tags": ["Balloon", "Gas"],
+      "categories": ["Accessories"]
     },
     "content": "\nA balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous oxide, oxygen, and air. For special tasks, balloons can be filled with smoke, liquid water, granular media, or light sources.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n### Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
     "slug": "post-4"
@@ -90,16 +62,9 @@
       "image": "/images/posts/05.jpg",
       "date": "2021-01-25T00:00:00.000Z",
       "draft": false,
-      "authors": [
-        "Najmudin"
-      ],
-      "tags": [
-        "Food",
-        "Gold"
-      ],
-      "categories": [
-        "Food"
-      ]
+      "authors": ["Najmudin"],
+      "tags": ["Food", "Gold"],
+      "categories": ["Food"]
     },
     "content": "\nA banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called \"plantains\", distinguishing them from dessert bananas.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n### Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
     "slug": "post-5"
@@ -111,16 +76,9 @@
       "image": "/images/posts/06.jpg",
       "date": "2021-02-03T00:00:00.000Z",
       "draft": false,
-      "authors": [
-        "Bugi Alfaridi"
-      ],
-      "tags": [
-        "Alarm",
-        "Clock"
-      ],
-      "categories": [
-        "LifeStyle"
-      ]
+      "authors": ["Bugi Alfaridi"],
+      "tags": ["Alarm", "Clock"],
+      "categories": ["LifeStyle"]
     },
     "content": "\nAlmost every day for the past nine or so months has felt like March 13, and that can sometimes make it difficult to want to wake up for the day ahead of you.\n\nTo make a morning person out of you, the wake-up light simulates the sunrise to gradually ease you awake. This allows you to wake up more naturally rather than being jolted awake by the default iPhone alarm sound, which honestly triggers my fight or flight response.\n\n### Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
     "slug": "post-6"
@@ -131,16 +89,9 @@
       "description": "meta description",
       "date": "2022-08-12T00:00:00.000Z",
       "image": "/images/posts/05.jpg",
-      "categories": [
-        "art"
-      ],
-      "authors": [
-        "Bugi Alfaridi"
-      ],
-      "tags": [
-        "diy",
-        "toy"
-      ],
+      "categories": ["art"],
+      "authors": ["Bugi Alfaridi"],
+      "tags": ["diy", "toy"],
       "draft": false
     },
     "content": "\nNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n## Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
