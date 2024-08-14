@@ -32,6 +32,7 @@ const Header = () => {
           navFixed ? "bg-transparent shadow" : "bg-transparent"
         } ${navFixed ? "pt-2" : "pt-2 md:pt-4"}`}
       >
+        
         <nav className="navbar container mx-auto flex items-center justify-between">
           {/* logo */}
           <div className="order-0">
