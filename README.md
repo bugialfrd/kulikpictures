@@ -44,7 +44,7 @@
 - 📄 Categories Single Page
 - 🔖 Tag Page
 - 🔖 Single Tag pages
-- 🎨 Elements Page
+- 🎨 Gallery Page
 - 🔒 Privacy policy page
 - 📚 Blog Page
 - 📝 Blog Single Page
