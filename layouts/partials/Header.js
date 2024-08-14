@@ -6,10 +6,8 @@ import React, { useEffect, useState } from "react";
 import { IoSearch } from "react-icons/io5";
 
 const Header = () => {
-  // distructuring the main menu from menu object
   const { main } = menu;
 
-  // states declaration
   const [navFixed, setNavFixed] = useState(false);
   const [searchModal, setSearchModal] = useState(false);
 
@@ -22,20 +20,24 @@ const Header = () => {
       }
     };
     window.addEventListener("scroll", changeNavbarBackground);
-  });
+    return () => {
+      window.removeEventListener("scroll", changeNavbarBackground);
+    };
+  }, []);
 
   return (
     <>
       <header
-        className={`sticky top-0 z-3 bg-white py-2 transition-all ${
-          navFixed ? "shadow" : "pt-4 md:pt-8"
-        }`}
+        className={`sticky top-0 z-30 py-2 transition-all duration-300 ${
+          navFixed ? "bg-transparent shadow" : "bg-transparent"
+        } ${navFixed ? "pt-2" : "pt-2 md:pt-4"}`}
       >
-        <nav className="navbar container">
+        <nav className="navbar container mx-auto flex items-center justify-between">
           {/* logo */}
           <div className="order-0">
             <Logo />
           </div>
+
           {/* navbar toggler */}
           <input id="nav-toggle" type="checkbox" className="hidden" />
           <label
@@ -61,8 +63,8 @@ const Header = () => {
               />
             </svg>
           </label>
-          {/* /navbar toggler */}
 
+          {/* Navbar Links */}
           <ul
             id="nav-menu"
             className="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto md:space-x-2"
