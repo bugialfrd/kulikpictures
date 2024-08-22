@@ -5,7 +5,7 @@ date: 2022-04-10
 image: "/images/posts/02.jpg"
 categories: ["development"]
 authors: ["Najmudin"]
-tags: ["diy", "toy"]
+tags: ["fotografi", "toy"]
 draft: false
 ---
 

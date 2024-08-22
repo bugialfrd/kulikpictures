@@ -17,7 +17,8 @@ export default function Contact() {
   const [message, setMessage] = useState("");
 
   // Replace with your actual API key or load from environment variables
-  const apiKey = process.env.PUBLIC_ACCESS_KEY || "1cf76dc3-c61c-4267-9f3c-176fe89918d2";
+  const apiKey =
+    process.env.PUBLIC_ACCESS_KEY || "1cf76dc3-c61c-4267-9f3c-176fe89918d2";
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
@@ -37,7 +38,7 @@ export default function Contact() {
   });
 
   return (
-    <div className="max-w-lg mx-auto mt-20">
+    <div className="mx-auto mt-20 max-w-lg">
       <form className="mb-10" onSubmit={handleSubmit(onSubmit)}>
         <input
           type="checkbox"
@@ -52,7 +53,7 @@ export default function Contact() {
             type="text"
             placeholder="Full Name"
             autoComplete="off"
-            className={`w-full px-4 py-3 border-2 rounded-md outline-none ${
+            className={`w-full rounded-md border-2 px-4 py-3 outline-none ${
               errors.name
                 ? "border-red-600 focus:border-red-600"
                 : "border-gray-300 focus:border-gray-600"
@@ -74,17 +75,20 @@ export default function Contact() {
             type="number"
             placeholder="Nomor Whatsapp"
             autoComplete="off"
-            className={`w-full px-4 py-3 border-2 rounded-md outline-none ${
-              errors.name
+            className={`w-full rounded-md border-2 px-4 py-3 outline-none ${
+              errors.whatsapp
                 ? "border-red-600 focus:border-red-600"
                 : "border-gray-300 focus:border-gray-600"
             }`}
             {...register("whatsapp", {
               required: "Masukkan nomor whatsapp",
-              maxLength: 13,
+              maxLength: {
+                value: 13,
+                message: "Nomor whatsapp tidak boleh lebih dari 13 digit",
+              },
             })}
           />
-          {errors.name && (
+          {errors.whatsapp && (
             <div className="mt-1 text-red-600">
               <small>{errors.whatsapp.message}</small>
             </div>
@@ -96,7 +100,7 @@ export default function Contact() {
             type="email"
             placeholder="Email Address"
             autoComplete="off"
-            className={`w-full px-4 py-3 border-2 rounded-md outline-none ${
+            className={`w-full rounded-md border-2 px-4 py-3 outline-none ${
               errors.email
                 ? "border-red-600 focus:border-red-600"
                 : "border-gray-300 focus:border-gray-600"
@@ -119,7 +123,7 @@ export default function Contact() {
         <div className="mb-5">
           <textarea
             placeholder="Your Message"
-            className={`w-full px-4 py-3 border-2 rounded-md outline-none ${
+            className={`w-full rounded-md border-2 px-4 py-3 outline-none ${
               errors.message
                 ? "border-red-600 focus:border-red-600"
                 : "border-gray-300 focus:border-gray-600"
@@ -137,14 +141,14 @@ export default function Contact() {
 
         <button
           type="submit"
-          className={`w-full py-4 font-semibold text-white transition-colors bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none ${
-            isSubmitting ? "opacity-50 cursor-not-allowed" : ""
+          className={`w-full rounded-md bg-gray-900 py-4 font-semibold text-white transition-colors hover:bg-gray-800 focus:outline-none ${
+            isSubmitting ? "cursor-not-allowed opacity-50" : ""
           }`}
           disabled={isSubmitting}
         >
           {isSubmitting ? (
             <svg
-              className="w-5 h-5 mr-3 animate-spin"
+              className="mr-3 h-5 w-5 animate-spin"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -170,18 +174,15 @@ export default function Contact() {
       </form>
 
       {isSubmitSuccessful && isSuccess && (
-        <div className="mt-4 text-sm text-center text-green-500">
+        <div className="mt-4 text-center text-sm text-green-500">
           {message || "Success. Message sent successfully"}
         </div>
       )}
       {isSubmitSuccessful && !isSuccess && (
-        <div className="mt-4 text-sm text-center text-red-500">
+        <div className="mt-4 text-center text-sm text-red-500">
           {message || "Something went wrong. Please try later."}
         </div>
       )}
     </div>
   );
 }
-
-
-

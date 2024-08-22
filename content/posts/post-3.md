@@ -1,11 +1,11 @@
 ---
-title: What you need to know about Photography
+title: What you need to know about Wedding
 description: "meta description"
 date: 2022-06-02
 image: "/images/posts/03.jpg"
-categories: ["art"]
+categories: ["Wedding"]
 authors: ["Bugi Alfaridi"]
-tags: ["diy", "toy"]
+tags: ["fotografi", "toy"]
 draft: false
 ---
 

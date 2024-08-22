@@ -1,11 +1,11 @@
 ---
-title: "How to make toys from old Olarpaper"
+title: "Harga paket wedding pada tahun 2022 dan 2023"
 description: "meta description"
 date: 2023-04-04
 image: "/images/posts/banner-home.jpg"
-categories: ["art"]
+categories: ["Wedding"]
 authors: ["Bugi Alfaridi"]
-tags: ["diy", "toy"]
+tags: ["fotografi", "toy"]
 draft: false
 ---
 

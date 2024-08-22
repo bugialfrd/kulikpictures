@@ -3,9 +3,9 @@ title: "DIY Paper Diamond Tutorial with HUNGRY HEART"
 description: "meta description"
 date: 2022-08-12
 image: "/images/posts/05.jpg"
-categories: ["art"]
+categories: ["Wedding"]
 authors: ["Bugi Alfaridi"]
-tags: ["diy", "toy"]
+tags: ["fotografi", "toy"]
 draft: false
 ---
 
